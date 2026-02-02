@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+       <header>
+        <div> Reflect Learn</div>
+        <nav>
+            <a href="index.html"> Home </a> &nbsp;&nbsp;
+            <a href="services.html"> Services </a> &nbsp; &nbsp;
+            <a href="about.html"> About </a> &nbsp; &nbsp;
+            <a href="features.html"> Features </a> &nbsp; &nbsp;
+            <a href="help.html"> Help </a> &nbsp; &nbsp;
+            <a href="contact.html"> Contact </a> &nbsp; &nbsp;
+            <a href="login.html"> Login </a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <button id="profile">Profile</button>
+        </nav>
+    </header>
+
+    <section class="form-contain">
+        <p id="startpage"> </p>
+        <h2> Login to ReflectLearn </h2>
+        <form action="log.inc.php" method="POST">
+            <label for="username"> Username </label>
+            <input type="text"  id="username" name="username" required> <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" required> <br><br>
+            <label for="password">Password</label>
+            <input type="password" name="pwd" required> <br><br>
+            <a href="#">Forgot Password?</a>
+            <button type="submit"> Login </button>
+
+        </form>
+
+        <p> Don't have an account? <a href="signup.html"> Sign Up </a> </p>
+    </section>
+
+    <footer>
+    <p>© 2025 ReflectLearn | Designed for Better Learning</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body{
+   background-image: url("main.jpg");
+   background-size:cover;
+   font-family: Arial, sans-serif;
+   background-repeat:no-repeat;
+
+}
+
+
+nav{
+    overflow: hidden;
+}
+h1,h2,h3{
+    color:#1E3A8A;
+
+}
+ p{
+    color:#374151;
+ }
+
+ header{
+    
+    padding:15px 30px;
+    color:aliceblue;
+    font-size:24px;
+ }
+ nav{
+    color:#FFFFFF;
+    text-decoration: none;
+    margin:0 12px;
+    font-weight:500;
+ }
+
+ .form-contain{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    flex-direction: column;
+ }
+
+ .login-form{
+    width:500px;
+    padding:50px;
+    border:1px solid #ccc;
+ }
+
+.courses-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:20px;
+    padding:20px;
+}
+.course-card{
+    background-color:#f3f4f6;
+    padding:20px;
+    border-radius:8px;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-bar{
+    display:flex;
+    align-items:center;
+}
+
+@media (max-width:600px){
+    .nav-bar{
+        flex-direction:column;
+    }
+}
+
+.menu{
+    display:block;
+    margin:8px 0;
+}
+
+a:hover{
+    color:red;
+}
+
+.contact-section{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:80vh;
+    flex-direction:column;
+}
+
