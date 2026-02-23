@@ -23,7 +23,7 @@ function reg(){
         $query="INSERT INTO users(username,email,pwd) VALUES (?, ?, ?);";
         $stmts=$pdo->prepare($query);
         $stmts->execute([$username,$email,$pwd]);
-        $counts++;
+        
         echo "Successfully registered.";
 
         $pdo=null;

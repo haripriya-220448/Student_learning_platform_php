@@ -1,0 +1,6 @@
+{
+    "name": "hari/php_student_learning_portal",
+    "require": {
+        "mongodb/mongodb": "^2.2"
+    }
+}

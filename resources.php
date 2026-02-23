@@ -33,7 +33,7 @@
             <a href="features.html"> Features </a> &nbsp; &nbsp;
             <a href="help.html"> Help </a> &nbsp; &nbsp;
             <a href="contact.html"> Contact </a> &nbsp; &nbsp;
-            <a href="login.html"> Login </a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+            <a href="login.php"> Login </a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
             <a href="upload.php">Upload</a>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
             <a href="resources.php">Resources</a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
             <button id="profile">Profile</button>
